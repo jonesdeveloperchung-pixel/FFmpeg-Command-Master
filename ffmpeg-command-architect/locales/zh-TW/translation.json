@@ -1,0 +1,94 @@
+{
+  "common": {
+    "appName": "FFmpeg 指令助手",
+    "simpleMode": "基礎模式",
+    "proMode": "專業模式",
+    "execute": "開始執行",
+    "reset": "全部重設",
+    "copy": "複製指令",
+    "copied": "已複製到剪貼簿",
+    "savePreset": "儲存預設",
+    "presetsGallery": "預設集庫",
+    "executionHistory": "歷史紀錄",
+    "docs": "說明文件",
+    "loading": "讀取中...",
+    "cancel": "取消",
+    "apply": "套用配置",
+    "delete": "刪除",
+    "close": "關閉並儲存",
+    "backToManual": "切換回手動模式",
+    "error": "發生錯誤",
+    "running": "執行中..."
+  },
+  "io": {
+    "title": "輸入與輸出",
+    "inputPath": "來源檔案路徑",
+    "outputPath": "輸出目標路徑",
+    "format": "封裝格式 (-f)",
+    "overwrite": "覆寫模式",
+    "overwriteYes": "直接覆寫 (-y)",
+    "overwriteNo": "跳過已存在 (-n)",
+    "overwriteAsk": "每次詢問",
+    "placeholderInput": "點擊右側圖示瀏覽或在此輸入路徑",
+    "placeholderOutput": "設定輸出檔名與路徑",
+    "addBatch": "+ 新增批次檔案",
+    "batchActive": "批次處理模式已啟用",
+    "batchDesc": "正在依序處理 {{count}} 個檔案",
+    "parallel": "平行處理"
+  },
+  "video": {
+    "title": "視訊設定",
+    "disable": "停用視訊流 (-vn)",
+    "codec": "編碼格式 (-c:v)",
+    "bitrate": "視訊碼率 (-b:v)",
+    "fps": "幀率 (-r)",
+    "aspect": "畫面比例 (-aspect)",
+    "filters": "視訊濾鏡 (-vf)",
+    "hardware": "硬體加速偵測",
+    "detectedEncoders": "已偵測到的硬體編碼器"
+  },
+  "audio": {
+    "title": "音訊設定",
+    "disable": "停用音訊流 (-an)",
+    "codec": "音訊編碼 (-c:a)",
+    "bitrate": "音訊碼率 (-b:a)",
+    "sampleRate": "取樣率 (-ar)",
+    "channels": "聲道配置 (-ac)",
+    "filters": "音訊濾鏡 (-af)"
+  },
+  "timing": {
+    "title": "裁剪與時間控制",
+    "start": "起始時間 (-ss)",
+    "duration": "持續長度 (-t)",
+    "end": "結束點 (-to)"
+  },
+  "advanced": {
+    "title": "進階參數",
+    "logLevel": "日誌詳盡度 (-v)",
+    "customArgs": "自定義額外參數",
+    "customArgsDesc": "直接將 FFmpeg 標記插入指令末尾（進階用戶使用）。",
+    "appSettings": "應用程式設定",
+    "ffmpegPath": "FFmpeg 執行檔路徑",
+    "ffprobePath": "FFprobe 執行檔路徑"
+  },
+  "ai": {
+    "title": "AI 智能助理",
+    "placeholder": "請描述您的需求，例如：將影片縮小到 720p 並轉為黑白",
+    "ask": "AI 助手解析",
+    "explanation": "原理解析",
+    "suggested": "建議指令內容",
+    "applySuccess": "已成功套用 AI 建議配置",
+    "aiSource": "AI 服務來源",
+    "ollamaServer": "Ollama 伺服器節點",
+    "model": "運算模型",
+    "override": "直接覆蓋",
+    "overrideActive": "AI 強制覆蓋模式已啟動",
+    "generated": "目前產生的指令"
+  },
+  "tips": {
+    "title": "大師提示",
+    "tip1": "使用 -c:v copy 可以在不重新編碼的情況下快速剪輯。",
+    "tip2": "參數順序會影響結果：輸入相關標記應置於 -i 之前。",
+    "tip3": "-crf (0-51) 是平衡 H.264 品質與檔案體積的最佳參數。"
+  }
+}

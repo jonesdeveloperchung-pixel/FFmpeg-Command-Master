@@ -1,0 +1,94 @@
+{
+  "common": {
+    "appName": "FFmpeg Command Master",
+    "simpleMode": "Simple Mode",
+    "proMode": "Pro Mode",
+    "execute": "Execute",
+    "reset": "Reset All",
+    "copy": "Copy Command",
+    "copied": "Copied to clipboard",
+    "savePreset": "Save Preset",
+    "presetsGallery": "Presets Library",
+    "executionHistory": "History",
+    "docs": "Documentation",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "apply": "Apply Config",
+    "delete": "Delete",
+    "close": "Close & Save",
+    "backToManual": "Back to Manual",
+    "error": "Error",
+    "running": "Running..."
+  },
+  "io": {
+    "title": "Input & Output",
+    "inputPath": "Source Path",
+    "outputPath": "Target Path",
+    "format": "Container (-f)",
+    "overwrite": "Overwrite Mode",
+    "overwriteYes": "Overwrite (-y)",
+    "overwriteNo": "Skip (-n)",
+    "overwriteAsk": "Ask",
+    "placeholderInput": "Browse or enter path",
+    "placeholderOutput": "Set target filename",
+    "addBatch": "+ Add More Files (Batch)",
+    "batchActive": "Batch Processing Active",
+    "batchDesc": "Processing {{count}} files sequentially",
+    "parallel": "Parallel"
+  },
+  "video": {
+    "title": "Video Settings",
+    "disable": "Disable Video (-vn)",
+    "codec": "Video Codec (-c:v)",
+    "bitrate": "Video Bitrate (-b:v)",
+    "fps": "Frame Rate (-r)",
+    "aspect": "Aspect Ratio (-aspect)",
+    "filters": "Video Filters (-vf)",
+    "hardware": "Hardware Acceleration",
+    "detectedEncoders": "Detected Encoders"
+  },
+  "audio": {
+    "title": "Audio Settings",
+    "disable": "Disable Audio (-an)",
+    "codec": "Audio Codec (-c:a)",
+    "bitrate": "Audio Bitrate (-b:a)",
+    "sampleRate": "Sample Rate (-ar)",
+    "channels": "Channels (-ac)",
+    "filters": "Audio Filters (-af)"
+  },
+  "timing": {
+    "title": "Timing & Trimming",
+    "start": "Start Time (-ss)",
+    "duration": "Duration (-t)",
+    "end": "End Time (-to)"
+  },
+  "advanced": {
+    "title": "Advanced Parameters",
+    "logLevel": "Log Level (-v)",
+    "customArgs": "Custom Arguments",
+    "customArgsDesc": "Inject FFmpeg flags directly into the command.",
+    "appSettings": "Application Settings",
+    "ffmpegPath": "FFmpeg Binary Path",
+    "ffprobePath": "FFprobe Binary Path"
+  },
+  "ai": {
+    "title": "AI Smart Assistant",
+    "placeholder": "e.g. Resize to 720p and make it B&W",
+    "ask": "Ask AI Assistant",
+    "explanation": "Explanation",
+    "suggested": "Suggested Command",
+    "applySuccess": "AI configuration applied",
+    "aiSource": "AI Source",
+    "ollamaServer": "Ollama Server",
+    "model": "Model",
+    "override": "Override",
+    "overrideActive": "AI Override Active",
+    "generated": "Generated Command"
+  },
+  "tips": {
+    "title": "Pro Tips",
+    "tip1": "Use -c:v copy to trim videos instantly without re-encoding.",
+    "tip2": "Order matters: flags placed before -i apply to input stream.",
+    "tip3": "-crf (0-51) is the best way to balance quality and file size."
+  }
+}
